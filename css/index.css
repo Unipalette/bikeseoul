@@ -6,11 +6,14 @@
   --color-gray: #b5b5b5;
   --color-gray-dark: #767676;
   --color-gray-blue: #bcc6cb;
-  --color-primary: #60be88;
+  --color-primary: #00ba4f;
 }
 /* 공통 스타일 */
+.txt_medium {
+  font-weight: 500;
+}
 .txt_bold {
-  font-weight: 700;
+  font-weight: 600;
 }
 .txt_primary_color {
   color: var(--color-primary);
@@ -113,6 +116,678 @@
   font-weight: 200;
   line-height: 5.6rem;
   color: var(--color-black-blue);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-webkit-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap .search_pannel .search_input_wrap .input_search::-moz-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search:-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-webkit-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap .search_pannel .search_input_wrap .input_search::-moz-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search:-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-webkit-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap .search_pannel .search_input_wrap .input_search::-moz-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search:-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-webkit-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap .search_pannel .search_input_wrap .input_search::-moz-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search:-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-webkit-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap .search_pannel .search_input_wrap .input_search::-moz-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search:-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-webkit-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap .search_pannel .search_input_wrap .input_search::-moz-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search:-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-webkit-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap .search_pannel .search_input_wrap .input_search::-moz-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search:-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-webkit-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap .search_pannel .search_input_wrap .input_search::-moz-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search:-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-webkit-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap .search_pannel .search_input_wrap .input_search::-moz-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search:-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-webkit-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap .search_pannel .search_input_wrap .input_search::-moz-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search:-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-webkit-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap .search_pannel .search_input_wrap .input_search::-moz-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search:-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-webkit-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap .search_pannel .search_input_wrap .input_search::-moz-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search:-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-webkit-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap .search_pannel .search_input_wrap .input_search::-moz-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search:-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-webkit-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap .search_pannel .search_input_wrap .input_search::-moz-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search:-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-webkit-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap .search_pannel .search_input_wrap .input_search::-moz-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search:-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-webkit-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap .search_pannel .search_input_wrap .input_search::-moz-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search:-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-webkit-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap .search_pannel .search_input_wrap .input_search::-moz-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search:-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-webkit-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap .search_pannel .search_input_wrap .input_search::-moz-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search:-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-webkit-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap .search_pannel .search_input_wrap .input_search::-moz-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search:-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-webkit-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap .search_pannel .search_input_wrap .input_search::-moz-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search:-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-webkit-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap .search_pannel .search_input_wrap .input_search::-moz-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search:-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-webkit-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap .search_pannel .search_input_wrap .input_search::-moz-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search:-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-webkit-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap .search_pannel .search_input_wrap .input_search::-moz-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search:-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-webkit-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap .search_pannel .search_input_wrap .input_search::-moz-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search:-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-webkit-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap .search_pannel .search_input_wrap .input_search::-moz-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search:-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-webkit-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap .search_pannel .search_input_wrap .input_search::-moz-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search:-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-webkit-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap .search_pannel .search_input_wrap .input_search::-moz-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search:-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-webkit-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap .search_pannel .search_input_wrap .input_search::-moz-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search:-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-webkit-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap .search_pannel .search_input_wrap .input_search::-moz-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search:-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-webkit-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap .search_pannel .search_input_wrap .input_search::-moz-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search:-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-webkit-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap .search_pannel .search_input_wrap .input_search::-moz-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search:-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-webkit-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap .search_pannel .search_input_wrap .input_search::-moz-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search:-ms-input-placeholder {
+  color: var(--color-gray);
+}
+.search_wrap
+  .search_pannel
+  .search_input_wrap
+  .input_search::-ms-input-placeholder {
+  color: var(--color-gray);
 }
 .search_wrap .search_pannel .search_input_wrap .input_search::placeholder {
   color: var(--color-gray);
@@ -566,7 +1241,7 @@
 
 /* 컨텐츠 03 - 공지사항 */
 .con3_notice {
-  padding: 5rem 0 5rem 0;
+  padding: 7rem 0 7rem 0;
 }
 .con3_notice .container .con_top_area {
   display: flex;
@@ -795,15 +1470,14 @@
 }
 .con4_bnr .container {
   display: flex;
-  justify-content: space-between;
-  height: 41rem;
+  justify-content: center;
+  text-align: center;
+  height: 31.8rem;
 }
 .con4_bnr .container .left_side {
-  margin-top: 10.7rem;
+  margin: auto 0;
   width: calc(50%);
   position: relative;
-}
-.con4_bnr .container .left_side .con_wrap {
 }
 .con4_bnr .container .left_side .con_wrap .txt_hi {
   background: #ceebff;
@@ -820,10 +1494,11 @@
 .con4_bnr .container .left_side .con_wrap .con_link_wrap {
   margin-top: 2.8rem;
   display: flex;
+  justify-content: center;
 }
 .con4_bnr .container .left_side .con_wrap .con_link_wrap .con_link {
   background: var(--color-black-blue);
-  border-radius: 0.4rem;
+  border-radius: 1rem;
   display: flex;
   padding: 1.3rem 2.8rem 1.3rem 1.4rem;
   transition: all 0.2s;
@@ -894,7 +1569,7 @@
 
 /* 컨텐츠 05 - sns */
 .con5_sns {
-  padding: 5rem 0 6rem 0;
+  padding-bottom: 7rem;
 }
 .con5_sns .container {
 }
@@ -996,29 +1671,9 @@
 .swiper_container .con_btn_next:hover .icon-next_arrow {
   background: url("../icon/icon-next_arrow-hover.svg") center center;
 }
-
-/* sns 아이콘 모음 */
-.con5_sns .container .con_top_area .sns_wrap .sns_link_wrap .icon-insta {
-  background: url("../icon/icon-insta.svg") center center;
-  background-size: cover;
-}
-
-.con5_sns .container .con_top_area .sns_wrap .sns_link_wrap .icon-youtube {
-  background: url("../icon/icon-youtube.svg") center center;
-  background-size: cover;
-}
-.con5_sns .container .con_top_area .sns_wrap .sns_link_wrap .icon-blog {
-  background: url("../icon/icon-blog.svg") center center;
-  background-size: cover;
-}
-.con5_sns .container .con_top_area .sns_wrap .sns_link_wrap .icon-facebook {
-  background: url("../icon/icon-facebook.svg") center center;
-  background-size: cover;
-}
-
 /* 컨텐츠 05 - sns */
 .con5_sns {
-  padding: 5rem 0 5rem 0;
+  padding-bottom: 7rem;
 }
 .con5_sns .container {
 }
@@ -1039,6 +1694,25 @@
   border: 0.1rem solid var(--color-gray-light);
   transition: all 0.3s;
 }
+/* sns 아이콘 모음 */
+.con5_sns .container .con_top_area .sns_wrap .sns_link_wrap .icon-insta {
+  background: url("../icon/icon-insta.svg") center center;
+  background-size: cover;
+}
+
+.con5_sns .container .con_top_area .sns_wrap .sns_link_wrap .icon-youtube {
+  background: url("../icon/icon-youtube.svg") center center;
+  background-size: cover;
+}
+.con5_sns .container .con_top_area .sns_wrap .sns_link_wrap .icon-blog {
+  background: url("../icon/icon-blog.svg") center center;
+  background-size: cover;
+}
+.con5_sns .container .con_top_area .sns_wrap .sns_link_wrap .icon-facebook {
+  background: url("../icon/icon-facebook.svg") center center;
+  background-size: cover;
+}
+
 /* 이미지 모음 */
 .con5_sns .container .con5_swiper_container .con5_swiper .con5_art1 {
   background: url("../img/con5_thum1.jpg") center center;
@@ -1174,6 +1848,7 @@
 }
 /* 컨텐츠 06 - 고객센터 링크 모음 */
 .con6_cs_link {
+  margin-top: 5rem;
 }
 .con6_cs_link .container {
   display: flex;
@@ -1227,7 +1902,6 @@
 
 /* 푸터 */
 .ftr {
-  margin-top: 5rem;
   background: var(--color-white);
 }
 /* 푸터 - 탑 푸터 */
