@@ -2,22 +2,22 @@
 <html lang="ko">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>서울시 자전거 따릉이 - 무인대여시스템</title>
-    <!-- CSS 모음 -->
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/swiper-bundle.min.css">
-    <!-- 웹폰트 -->
-    <link rel="stylesheet" type="text/css"
-        href="https://cdn.jsodelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>서울시 자전거 따릉이 - 무인대여시스템</title>
+  <!-- CSS 모음 -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <!-- 웹폰트 -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsodelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
 </head>
 
 <body>
-    <!-- 채팅 상담 버튼 -->
-    <!-- <button class="btn_chat btn_main">
+  <!-- 채팅 상담 버튼 -->
+  <!-- <button class="btn_chat btn_main">
         <div class="icon_wrap">
             <span class="icon_alarm"></span>
             <div class="icon_chat"></div>
@@ -34,10 +34,10 @@
             상단 이동
         </p>
     </button> -->
-    <!-- // 채팅 상담 버튼 -->
+  <!-- // 채팅 상담 버튼 -->
 
-    <!-- 검색 패널 -->
-    <!-- <div class="search_wrap">
+  <!-- 검색 패널 -->
+  <!-- <div class="search_wrap">
         <div class="search_pannel">
             <button class="close_btn"></button>
             <div class="search_input_wrap">
@@ -54,653 +54,659 @@
             </div>
         </div>
     </div> -->
-    <!-- // 검색 패널 -->
-    <!--헤더 -->
-    <header class="hdr">
-        <div class="container">
-            <div class="left_side">
-                <h1 class="logo">
-                    <a href="#" class="logo_link">
-                        <img src="img/logo.svg" alt="메인 로고, 홈으로 이동" class="logo_img">
-                    </a>
-                </h1>
-                <ul class="gnb">
-                    <li class="gnb_li">
-                        <a href="#" class="gnb_link">
-                            따릉이란
-                        </a>
-                    </li>
-                    <li class="gnb_li">
-                        <a href="#" class="gnb_link">
-                            정거장 찾기
-                        </a>
-                    </li>
-                    <li class="gnb_li">
-                        <a href="#" class="gnb_link">
-                            공지사항
-                        </a>
-                    </li>
-                    <li class="gnb_li">
-                        <a href="#" class="gnb_link">
-                            고객센터
-                        </a>
-                    </li>
-                    <li class="more_btn">
-                        <div class="more_btn_wrap">
-                            <p>
-                                더보기
-                            </p>
-                            <span class="icon_arrow_s">
-                            </span>
-                        </div>
-                        <ul class="more_menu">
-                            <li class="menu_li">
-                                <a href="#" class="menu_link">
-                                    자전거 도로
-                                </a>
-                            </li>
-                            <li class="menu_li">
-                                <a href="#" class="menu_link">
-                                    많이 묻는 질문
-                                </a>
-                            </li>
-                            <li class="menu_li">
-                                <a href="#" class="menu_link">
-                                    이용안내
-                                </a>
-                            </li>
-                            <li class="menu_li">
-                                <a href="#" class="menu_link">
-                                    따릉이 이용권 구매
-                                </a>
-                            </li>
-                        </ul>
-                        <script>
-                            const moreBtn = document.querySelector('.more_btn_wrap');
-                            moreBtn.addEventListener('click', () => {
-                                const moreMenu = document.querySelector('.more_menu');
-                                moreMenu.classList.toggle('more_menu_show');
-                                const iconArrowS = document.querySelector('.icon_arrow_s');
-                                iconArrowS.classList.toggle('rotate180');
-                            })
-                        </script>
-                    </li>
-                </ul>
+  <!-- // 검색 패널 -->
+  <!--헤더 -->
+  <header class="hdr">
+    <div class="container">
+      <div class="left_side">
+        <h1 class="logo">
+          <a href="#" class="logo_link">
+            <img src="img/logo.svg" alt="메인 로고, 홈으로 이동" class="logo_img">
+          </a>
+        </h1>
+        <ul class="gnb">
+          <li class="gnb_li">
+            <a href="#" class="gnb_link">
+              따릉이란
+            </a>
+          </li>
+          <li class="gnb_li">
+            <a href="#" class="gnb_link">
+              정거장 찾기
+            </a>
+          </li>
+          <li class="gnb_li">
+            <a href="#" class="gnb_link">
+              공지사항
+            </a>
+          </li>
+          <li class="gnb_li">
+            <a href="#" class="gnb_link">
+              고객센터
+            </a>
+          </li>
+          <li class="more_btn">
+            <div class="more_btn_wrap">
+              <p>
+                더보기
+              </p>
+              <span class="icon_arrow_s">
+              </span>
             </div>
-            <div class="right_side">
-                <a href="#" class="mypage_link">
-                    마이 따릉이
+            <ul class="more_menu">
+              <li class="menu_li">
+                <a href="#" class="menu_link">
+                  자전거 도로
                 </a>
-                <div class="login_wrap">
-                    <a href="sub1_login.html" class="login login_link">
-                        로그인
-                    </a>
-                    <a href="sub1_login.html" class="signup login_link">
-                        회원가입
-                    </a>
-                </div>
-                <button class="search_btn">
-                    <span class="icon_search"></span>
-                </button>
-            </div>
-        </div>
-    </header>
-    <!-- // 헤더 -->
-    <!-- 컨텐츠 01 - 메인 배너 -->
-    <section class="con1_main">
-        <!-- Swiper -->
-        <div class="swiper mySwiper con1_swiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide con1_slide con1_slide1">
-                    <div class="container">
-                        <div class="con_wrap">
-                            <h2 class="con_tit">
-                                <span class="txt_bold"> 청소년 & 대학생 </span>주목!!!
-                            </h2>
-                            <p class="con_txt">
-                                <span class="txt_bold">연 12만원</span> 에 따릉이
-                                <span class="txt_bold">교통비 지원금</span>을
-                                <br>지금 바로 신청하세요!
-                            </p>
-                            <a href="#" class="con_link">
-                                자세히보기
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide con1_slide con1_slide2">
-                    <div class="container">
-                        <div class="con_wrap">
-                            <h2 class="con_tit">
-                                <span class="txt_bold">환승 혜택을</span> 누리세요!
-                            </h2>
-                            <p class="con_txt">
-                                타고
-                                <span class="txt_bold"> 버스</span>OR<span class="txt_bold">지하철</span>타고
-                                <span class="txt_bold"> 티머니 GO로</span>
-                                <br>따릉이 환승혜택을 받으세요!
-                            </p>
-                            <a href="#" class="con_link">
-                                자세히보기
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide con1_slide con1_slide3">
-                    <div class="container">
-                        <div class="con_wrap">
-                            <h2 class="con_tit">
-                                <span class="txt_bold"> 따릉이 서포터즈를 </span> 모집합니다.
-                            </h2>
-                            <p class="con_txt">
-                                <span class="txt_bold">따릉이</span>와 함께하는 일상을 공유하고 홍보하는
-                                <br>
-                                <span class="txt_bold">따릉이 서포터즈</span>에 지원하세요.
-                            </p>
-                            <a href="#" class="con_link">
-                                자세히보기
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide con1_slide con1_slide4">
-                    <div class="container">
-                        <div class="con_wrap">
-                            <h2 class="con_tit">
-                                <span class="txt_bold"> 로블록스 X 따릉이 </span>메타버스
-                            </h2>
-                            <p class="con_txt">
-                                <span class="txt_bold">로블록스 메타버스 </span>세상 속에서도
-                                <br> 따릉이 타고 슝슝 달려봐요.
-                            </p>
-                            <a href="#" class="con_link">
-                                자세히보기
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container con1_slide_control">
-            <div class="swiper-button-prev con1_btn_prev con1_btn"></div>
-            <div class="swiper-button-next con1_btn_next con1_btn"></div>
-        </div>
-        <div class="swiper-pagination con1_pagination"></div>
-    </section>
-    <!-- // 컨텐츠 01 - 메인 배너 -->
-    <!-- 컨텐츠 02 - 퀵 메뉴 -->
-    <section class="con2_q_menu">
-        <div class="container">
-            <ul class="q_menu">
-                <li class="q_menu_li">
-                    <a href="#" class="q_menu_link">
-                        <div class="q_menu_icon icon-rental"></div>
-                        <p class="q_menu_tit">
-                            대여 및 반납
-                        </p>
-                    </a>
-                </li>
-                <li class="q_menu_li">
-                    <a href="#" class="q_menu_link">
-                        <div class="q_menu_icon icon-station"></div>
-                        <p class="q_menu_tit">
-                            정거장 찾기
-                        </p>
-                    </a>
-                </li>
-                <li class="q_menu_li">
-                    <a href="#" class="q_menu_link">
-                        <div class="q_menu_icon icon-fee"></div>
-                        <p class="q_menu_tit">
-                            요금 안내
-                        </p>
-                    </a>
-                </li>
-                <li class="q_menu_li">
-                    <a href="#" class="q_menu_link">
-                        <div class="q_menu_icon icon-pass"></div>
-                        <p class="q_menu_tit">
-                            따릉이 이용권
-                        </p>
-                    </a>
-                </li>
-                <li class="q_menu_li">
-                    <a href="#" class="q_menu_link">
-                        <div class="q_menu_icon icon-cs"></div>
-                        <p class="q_menu_tit">
-                            고객센터
-                        </p>
-                    </a>
-                </li>
-                <li class="q_menu_li">
-                    <a href="#" class="q_menu_link">
-                        <div class="q_menu_icon icon-manage"></div>
-                        <p class="q_menu_tit">
-                            시설 관리
-                        </p>
-                    </a>
-                </li>
+              </li>
+              <li class="menu_li">
+                <a href="#" class="menu_link">
+                  많이 묻는 질문
+                </a>
+              </li>
+              <li class="menu_li">
+                <a href="#" class="menu_link">
+                  이용안내
+                </a>
+              </li>
+              <li class="menu_li">
+                <a href="#" class="menu_link">
+                  따릉이 이용권 구매
+                </a>
+              </li>
             </ul>
+            <script>
+              const moreBtn = document.querySelector('.more_btn_wrap');
+              moreBtn.addEventListener('click', () => {
+                const moreMenu = document.querySelector('.more_menu');
+                moreMenu.classList.toggle('more_menu_show');
+                const iconArrowS = document.querySelector('.icon_arrow_s');
+                iconArrowS.classList.toggle('rotate180');
+              })
+            </script>
+          </li>
+        </ul>
+      </div>
+      <div class="right_side">
+        <a href="#" class="mypage_link">
+          마이 따릉이
+        </a>
+        <div class="login_wrap">
+          <a href="sub1_login.html" class="login login_link">
+            로그인
+          </a>
+          <a href="sub1_login.html" class="signup login_link">
+            회원가입
+          </a>
         </div>
-    </section>
-    <!-- // 컨텐츠 02 - 퀵 메뉴 -->
-
-    <!-- 컨텐츠 03 - 공지사항 -->
-    <section class="con3_notice">
-        <div class="container">
-            <div class="con_top_area">
-                <h3 class="con_tit">
-                    따릉이
-                    <span class="txt_bold">
-                        공지사항
+        <button class="search_btn">
+          <span class="icon_search"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <!-- // 헤더 -->
+  <!-- 컨텐츠 01 - 메인 배너 -->
+  <section class="con1_main">
+    <!-- Swiper -->
+    <div class="swiper mySwiper con1_swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide con1_slide con1_slide1">
+          <div class="container">
+            <div class="con_wrap">
+              <h2 class="con_tit">
+                <span class="txt_medium"> 청소년 & 대학생 </span>주목!!!
+              </h2>
+              <p class="con_txt">
+                <span class="txt_medium">연 12만원</span> 에 따릉이
+                <span class="txt_medium">교통비 지원금</span>을
+                <br>지금 바로 신청하세요!
+              </p>
+              <a href="#" class="con_link">
+                자세히보기
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide con1_slide con1_slide2">
+          <div class="container">
+            <div class="con_wrap">
+              <h2 class="con_tit">
+                <span class="txt_medium">환승 혜택을</span> 누리세요!
+              </h2>
+              <p class="con_txt">
+                <span class="txt_medium">
+                  버스
+                </span>
+                OR
+                <span class="txt_medium">
+                  지하철
+                </span>
+                타고
+                <span class="txt_bold"> 티머니 GO로</span>
+                <br>따릉이 환승혜택을 받으세요!
+              </p>
+              <a href="#" class="con_link">
+                자세히보기
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide con1_slide con1_slide3">
+          <div class="container">
+            <div class="con_wrap">
+              <h2 class="con_tit">
+                <span class="txt_medium"> 따릉이 서포터즈를 </span> 모집합니다.
+              </h2>
+              <p class="con_txt">
+                <span class="txt_medium">따릉이</span>와 함께하는 일상을 공유하고 홍보하는
+                <br>
+                <span class="txt_medium">따릉이 서포터즈</span>에 지원하세요.
+              </p>
+              <a href="#" class="con_link">
+                자세히보기
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide con1_slide con1_slide4">
+          <div class="container">
+            <div class="con_wrap">
+              <h2 class="con_tit">
+                <span class="txt_medium"> 로블록스 X 따릉이 </span>메타버스
+              </h2>
+              <p class="con_txt">
+                <span class="txt_medium">로블록스 메타버스 </span>세상 속에서도
+                <br> 따릉이 타고 슝슝 달려봐요.
+              </p>
+              <a href="#" class="con_link">
+                자세히보기
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container con1_slide_control">
+      <div class="swiper-button-prev con1_btn_prev con1_btn"></div>
+      <div class="swiper-button-next con1_btn_next con1_btn"></div>
+    </div>
+    <div class="swiper-pagination con1_pagination"></div>
+  </section>
+  <!-- // 컨텐츠 01 - 메인 배너 -->
+  <!-- 컨텐츠 02 - 퀵 메뉴 -->
+  <section class="con2_q_menu">
+    <div class="container">
+      <ul class="q_menu">
+        <li class="q_menu_li">
+          <a href="#" class="q_menu_link">
+            <div class="q_menu_icon icon-rental"></div>
+            <p class="q_menu_tit">
+              대여 및 반납
+            </p>
+          </a>
+        </li>
+        <li class="q_menu_li">
+          <a href="#" class="q_menu_link">
+            <div class="q_menu_icon icon-station"></div>
+            <p class="q_menu_tit">
+              정거장 찾기
+            </p>
+          </a>
+        </li>
+        <li class="q_menu_li">
+          <a href="#" class="q_menu_link">
+            <div class="q_menu_icon icon-fee"></div>
+            <p class="q_menu_tit">
+              요금 안내
+            </p>
+          </a>
+        </li>
+        <li class="q_menu_li">
+          <a href="#" class="q_menu_link">
+            <div class="q_menu_icon icon-pass"></div>
+            <p class="q_menu_tit">
+              따릉이 이용권
+            </p>
+          </a>
+        </li>
+        <li class="q_menu_li">
+          <a href="#" class="q_menu_link">
+            <div class="q_menu_icon icon-cs"></div>
+            <p class="q_menu_tit">
+              고객센터
+            </p>
+          </a>
+        </li>
+        <li class="q_menu_li">
+          <a href="#" class="q_menu_link">
+            <div class="q_menu_icon icon-manage"></div>
+            <p class="q_menu_tit">
+              시설 관리
+            </p>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- // 컨텐츠 02 - 퀵 메뉴 -->
+  <!-- 컨텐츠 06 - 고객센터 링크 모음-->
+  <section class="con6_cs_link">
+    <div class="container">
+      <a href="#" class="link_btn">
+        <div class="txt_wrap">
+          <p class="link_sub_tit">
+            친절하게 상담해드려요.
+          </p>
+          <h5 class="link_tit">
+            따릉이
+            <sapn class="txt_bold">
+              고객센터
+            </sapn>
+          </h5>
+        </div>
+        <span class="cs_link_icon icon-cs">
+        </span>
+      </a>
+      <a href="#" class="link_btn">
+        <div class="txt_wrap">
+          <p class="link_sub_tit">
+            첫 이용자도 쉽게 이용할 수 있도록
+          </p>
+          <h5 class="link_tit">
+            따릉이
+            <sapn class="txt_bold">
+              첫 이용 가이드
+            </sapn>
+          </h5>
+        </div>
+        <span class="cs_link_icon icon-guide">
+        </span>
+      </a>
+      <a href="#" class="link_btn">
+        <div class="txt_wrap">
+          <p class="link_sub_tit">
+            매일 타는 따릉이 조금 더 안전하게
+          <h5 class="link_tit">
+            따릉이
+            <sapn class="txt_bold">
+              자전거 보험
+            </sapn>
+          </h5>
+        </div>
+        <span class="cs_link_icon icon-insur">
+        </span>
+      </a>
+    </div>
+  </section>
+  <!-- // 컨텐츠 06 - 고객센터 링크 -->
+  <!-- 컨텐츠 03 - 공지사항 -->
+  <section class="con3_notice">
+    <div class="container">
+      <div class="con_top_area">
+        <h3 class="con_tit">
+          따릉이
+          <span class="txt_bold">
+            공지사항
+          </span>
+        </h3>
+        <a href="#" class="more_btn">
+          전체보기
+          <span class="icon-link_go"></span>
+        </a>
+      </div>
+      <div class="con3_swiper_container">
+        <!-- 컨텐츠 03 - 슬라이드 버튼 -->
+        <button class="con3_btn_prev con3_btn">
+          <span class="icon-prev_arrow icon-arrow"></span>
+        </button>
+        <button class="con3_btn_next con3_btn">
+          <span class="icon-next_arrow icon-arrow"></span>
+        </button>
+        <!-- // 컨텐츠 03 - 슬라이드 버튼 -->
+        <div class="swiper mySwiper con3_swiper">
+          <div class="swiper-wrapper">
+            <article class="swiper-slide con3_art con3_art1">
+              <a href="#" class="con3_art_link">
+                <span class="icon_sort">
+                  문화
+                </span>
+                <div class="con3_art_img">
+                </div>
+                <div class="con3_art_txt_wrap">
+                  <h4 class="con3_art_tit">
+                    [문화] 로블록스 따릉이 메타버스에 놀러오세요.
+                    <span class="icon-new">
+                      N
                     </span>
-                </h3>
-                <a href="#" class="more_btn">
-                    전체보기
-                    <span class="icon-link_go"></span>
-                </a>
-            </div>
-            <div class="con3_swiper_container">
-                <!-- 컨텐츠 03 - 슬라이드 버튼 -->
-                <button class="con3_btn_prev con3_btn">
-                    <span class="icon-prev_arrow icon-arrow"></span>
-                </button>
-                <button class="con3_btn_next con3_btn">
-                    <span class="icon-next_arrow icon-arrow"></span>
-                </button>
-                <!-- // 컨텐츠 03 - 슬라이드 버튼 -->
-                <div class="swiper mySwiper con3_swiper">
-                    <div class="swiper-wrapper">
-                        <article class="swiper-slide con3_art con3_art1">
-                            <a href="#" class="con3_art_link">
-                                <span class="icon_sort">
-                                    문화
-                                </span>
-                                <div class="con3_art_img">
-                                </div>
-                                <div class="con3_art_txt_wrap">
-                                    <h4 class="con3_art_tit">
-                                        [문화] 로블록스 따릉이 메타버스에 놀러오세요.
-                                        <span class="icon-new">
-                                            N
-                                        </span>
-                                    </h4>
-                                    <p class="con3_art_date">
-                                        2022.01.21
-                                    </p>
-                                </div>
-                            </a>
-                        </article>
-                        <article class="swiper-slide con3_art con3_art2">
-                            <a href="#" class="con3_art_link">
-                                <span class="icon_sort">
-                                    문화
-                                </span>
-                                <div class="con3_art_img">
-                                </div>
-                                <div class="con3_art_txt_wrap">
-                                    <h4 class="con3_art_tit">
-                                        [문화] 로블록스 따릉이 메타버스에 놀러오세요.33
-                                        <span class="icon-new">
-                                            N
-                                        </span>
-                                    </h4>
-                                    <p class="con3_art_date">
-                                        2022.01.21
-                                    </p>
-                                </div>
-                            </a>
-                        </article>
-                        <article class="swiper-slide con3_art con3_art3">
-                            <a href="#" class="con3_art_link">
-                                <span class="icon_sort">
-                                    문화
-                                </span>
-                                <div class="con3_art_img">
-                                </div>
-                                <div class="con3_art_txt_wrap">
-                                    <h4 class="con3_art_tit">
-                                        [문화] 로블록스 따릉이 메타버스에 놀러오세요.
-                                        <span class="icon-new">
-                                            N
-                                        </span>
-                                    </h4>
-                                    <p class="con3_art_date">
-                                        2022.01.21
-                                    </p>
-                                </div>
-                            </a>
-                        </article>
-                        <article class="swiper-slide con3_art con3_art4">
-                            <a href="#" class="con3_art_link">
-                                <span class="icon_sort">
-                                    문화
-                                </span>
-                                <div class="con3_art_img">
-                                </div>
-                                <div class="con3_art_txt_wrap">
-                                    <h4 class="con3_art_tit">
-                                        [문화] 로블록스 따릉이 메타버스에 놀러오세요.
-                                        <span class="icon-new">
-                                            N
-                                        </span>
-                                    </h4>
-                                    <p class="con3_art_date">
-                                        2022.01.21
-                                    </p>
-                                </div>
-                            </a>
-                        </article>
-                        <article class="swiper-slide con3_art con3_art5">
-                            <a href="#" class="con3_art_link">
-                                <span class="icon_sort">
-                                    문화
-                                </span>
-                                <div class="con3_art_img">
-                                </div>
-                                <div class="con3_art_txt_wrap">
-                                    <h4 class="con3_art_tit">
-                                        [문화] 로블록스 따릉이 메타버스에 놀러오세요.
-                                        <span class="icon-new">
-                                            N
-                                        </span>
-                                    </h4>
-                                    <p class="con3_art_date">
-                                        2022.01.21
-                                    </p>
-                                </div>
-                            </a>
-                        </article>
-                    </div>
+                  </h4>
+                  <p class="con3_art_date">
+                    2022.01.21
+                  </p>
                 </div>
-            </div>
-        </div>
-    </section>
-    <!-- // 컨텐츠 03 - 공지사항 -->
-
-    <!-- 컨텐츠 04 - 홍보 배너 -->
-    <section class="con4_bnr">
-        <div class="container">
-            <div class="left_side">
-                <div class="con_wrap">
-                    <h2 class="con_tit">
-                        <span class="txt_bold txt_hi">
-                            따릉이 어플
-                        </span>로 이용하세요!
-                    </h2>
-                    <p class="con_txt">
-                        모바일 어플로 더욱 빠르고
-                        <br>편리하게 따릉이를 이용하세요!
-                    </p>
-                    <div class="con_link_wrap">
-                        <a href="#" class="con_link">
-                            <div class="icon_store icon_apple"></div>
-                            <div class="txt_wrap">
-                                <p class="small_txt">
-                                    앱 스토어에서
-                                </p>
-                                <p class="down_txt">
-                                    다운로드 하기
-                                </p>
-                            </div>
-                        </a>
-                        <a href="#" class="con_link">
-                            <div class="icon_store icon_google"></div>
-                            <div class="txt_wrap">
-                                <p class="small_txt">
-                                    구글 플레이에서
-                                </p>
-                                <p class="down_txt">
-                                    다운로드 하기
-                                </p>
-                            </div>
-                        </a>
-                    </div>
+              </a>
+            </article>
+            <article class="swiper-slide con3_art con3_art2">
+              <a href="#" class="con3_art_link">
+                <span class="icon_sort">
+                  문화
+                </span>
+                <div class="con3_art_img">
                 </div>
-            </div>
-            <div class="right_side">
-                <img src="img/con4_bnr_img.png" alt="" class="con4_bnr_img">
-            </div>
-        </div>
-    </section>
-    <!-- // 컨텐츠 04 - 홍보 배너 -->
-    <!-- 컨텐츠 05 - sns -->
-    <section class="con5_sns">
-        <div class="container">
-            <div class="con_top_area">
-                <h3 class="con_tit">
-                    따릉이 <span class="txt_bold">
-                        소설 미디어
+                <div class="con3_art_txt_wrap">
+                  <h4 class="con3_art_tit">
+                    [문화] 로블록스 따릉이 메타버스에 놀러오세요.33
+                    <span class="icon-new">
+                      N
                     </span>
-                </h3>
-                <div class="sns_wrap">
-                    <p class="sns_txt">
-                        따릉이 <span class="txt_bold">SNS</span>에 방문하세요!
-                    </p>
-                    <div class="sns_link_wrap">
-                        <a href="#" class="sns_link icon-insta"></a>
-                        <a href="#" class="sns_link icon-youtube"></a>
-                        <a href="#" class="sns_link icon-blog"></a>
-                        <a href="#" class="sns_link icon-facebook"></a>
-                    </div>
+                  </h4>
+                  <p class="con3_art_date">
+                    2022.01.21
+                  </p>
                 </div>
-            </div>
-            <div class="con5_swiper_container swiper_container">
-                <!-- 슬라이드 버튼 -->
-                <button class="con5_btn_prev con_btn con_btn_prev">
-                    <span class="icon-prev_arrow icon-arrow"></span>
-                </button>
-                <button class="con5_btn_next con_btn con_btn_next">
-                    <span class="icon-next_arrow icon-arrow"></span>
-                </button>
-                <!-- // 슬라이드 버튼 -->
-                <div class="swiper con5_swiper">
-                    <div class="swiper-wrapper">
-                        <article class="swiper-slide con5_art con5_art1">
-                            <a href="#" class="con5_link">
-                                <!-- <div class="con5_art_cover">
-                                    <p class="cover_txt">
-                                        자세히 보기
-                                    </p>
-                                </div> -->
-                                <span class="icon_sns icon-insta">
-                                </span>
-                            </a>
-                        </article>
-                        <article class="swiper-slide con5_art con5_art2">
-                            <a href="#" class="con5_link">
-                                <!-- <div class="con5_art_cover">
-                                    <p class="cover_txt">
-                                        자세히 보기
-                                    </p>
-                                </div> -->
-                                <span class="icon_sns icon-facebook">
-                                </span>
-                            </a>
-                        </article>
-                        <article class="swiper-slide con5_art con5_art3">
-                            <a href="#" class="con5_link">
-                                <!-- <div class="con5_art_cover">
-                                    <p class="cover_txt">
-                                        자세히 보기
-                                    </p>
-                                </div> -->
-                                <span class="icon_sns icon-blog">
-                                </span>
-                            </a>
-                        </article>
-                        <article class="swiper-slide con5_art con5_art4">
-                            <a href="#" class="con5_link">
-                                <!-- <div class="con5_art_cover">
-                                    <p class="cover_txt">
-                                        자세히 보기
-                                    </p>
-                                </div> -->
-                                <span class="icon_sns icon-youtube">
-                                </span>
-                            </a>
-                        </article>
-                        <article class="swiper-slide con5_art con5_art5">
-                            <a href="#" class="con5_link">
-                                <!-- <div class="con5_art_cover">
-                                    <p class="cover_txt">
-                                        자세히 보기
-                                    </p>
-                                </div> -->
-                                <span class="icon_sns icon-insta">
-                                </span>
-                            </a>
-                        </article>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- // 컨텐츠 05 - sns -->
-
-    <!-- 컨텐츠 06 - 고객센터 링크 모음-->
-    <section class="con6_cs_link">
-        <div class="container">
-            <a href="#" class="link_btn">
-                <div class="txt_wrap">
-                    <p class="link_sub_tit">
-                        친절하게 상담해드려요.
-                    </p>
-                    <h5 class="link_tit">
-                        따릉이
-                        <sapn class="txt_bold">
-                            고객센터
-                        </sapn>
-                    </h5>
-                </div>
-                <span class="cs_link_icon icon-cs">
+              </a>
+            </article>
+            <article class="swiper-slide con3_art con3_art3">
+              <a href="#" class="con3_art_link">
+                <span class="icon_sort">
+                  문화
                 </span>
-            </a>
-            <a href="#" class="link_btn">
-                <div class="txt_wrap">
-                    <p class="link_sub_tit">
-                        첫 이용자도 쉽게 이용할 수 있도록
-                    </p>
-                    <h5 class="link_tit">
-                        따릉이
-                        <sapn class="txt_bold">
-                            첫 이용 가이드
-                        </sapn>
-                    </h5>
+                <div class="con3_art_img">
                 </div>
-                <span class="cs_link_icon icon-guide">
-                </span>
-            </a>
-            <a href="#" class="link_btn">
-                <div class="txt_wrap">
-                    <p class="link_sub_tit">
-                        매일 타는 따릉이 조금 더 안전하게
-                    <h5 class="link_tit">
-                        따릉이
-                        <sapn class="txt_bold">
-                            자전거 보험
-                        </sapn>
-                    </h5>
+                <div class="con3_art_txt_wrap">
+                  <h4 class="con3_art_tit">
+                    [문화] 로블록스 따릉이 메타버스에 놀러오세요.
+                    <span class="icon-new">
+                      N
+                    </span>
+                  </h4>
+                  <p class="con3_art_date">
+                    2022.01.21
+                  </p>
                 </div>
-                <span class="cs_link_icon icon-insur">
+              </a>
+            </article>
+            <article class="swiper-slide con3_art con3_art4">
+              <a href="#" class="con3_art_link">
+                <span class="icon_sort">
+                  문화
                 </span>
-            </a>
+                <div class="con3_art_img">
+                </div>
+                <div class="con3_art_txt_wrap">
+                  <h4 class="con3_art_tit">
+                    [문화] 로블록스 따릉이 메타버스에 놀러오세요.
+                    <span class="icon-new">
+                      N
+                    </span>
+                  </h4>
+                  <p class="con3_art_date">
+                    2022.01.21
+                  </p>
+                </div>
+              </a>
+            </article>
+            <article class="swiper-slide con3_art con3_art5">
+              <a href="#" class="con3_art_link">
+                <span class="icon_sort">
+                  문화
+                </span>
+                <div class="con3_art_img">
+                </div>
+                <div class="con3_art_txt_wrap">
+                  <h4 class="con3_art_tit">
+                    [문화] 로블록스 따릉이 메타버스에 놀러오세요.
+                    <span class="icon-new">
+                      N
+                    </span>
+                  </h4>
+                  <p class="con3_art_date">
+                    2022.01.21
+                  </p>
+                </div>
+              </a>
+            </article>
+          </div>
         </div>
-    </section>
-    <!-- // 컨텐츠 06 - 고객센터 링크 -->
-    <!-- 푸터 -->
-    <footer class="ftr">
-        <div class="top_ftr">
-            <div class="container">
-                <ul class="link_wrap">
-                    <li class="link_li">
-                        <a href="#" class="link">
-                            이용약관
-                        </a>
-                    </li>
-                    <li class="link_li">
-                        <a href="#" class="link">
-                            <span class="txt_bold txt_primary_color">
-                                개인정보처리방침
-                            </span>
-                        </a>
-                    </li>
-                    <li class="link_li">
-                        <a href="#" class="link">
-                            보험 안내
-                        </a>
-                    </li>
-                    <li class="link_li">
-                        <a href="#" class="link">
-                            도움주신 분
-                        </a>
-                    </li>
-
-                </ul>
-            </div>
+      </div>
+    </div>
+  </section>
+  <!-- // 컨텐츠 03 - 공지사항 -->
+  <!-- 컨텐츠 05 - sns -->
+  <section class="con5_sns">
+    <div class="container">
+      <div class="con_top_area">
+        <h3 class="con_tit">
+          따릉이 <span class="txt_bold">
+            소설 미디어
+          </span>
+        </h3>
+        <div class="sns_wrap">
+          <p class="sns_txt">
+            따릉이 <span class="txt_bold">SNS</span>에 방문하세요!
+          </p>
+          <div class="sns_link_wrap">
+            <a href="#" class="sns_link icon-insta"></a>
+            <a href="#" class="sns_link icon-youtube"></a>
+            <a href="#" class="sns_link icon-blog"></a>
+            <a href="#" class="sns_link icon-facebook"></a>
+          </div>
         </div>
-        <div class="main_ftr">
-            <div class="container">
-                <p class="info_txt">
-                    서울 특별시 중구 세종대로 110 서울특별시 대표자 : 오세훈
-                    <br>TEL : 1599-0120 사업자 등록 번호 : 104-83-00469
-                    <br>우편번호 : 04524 서울시 공용자전거 따릉이
+      </div>
+      <div class="con5_swiper_container swiper_container">
+        <!-- 슬라이드 버튼 -->
+        <button class="con5_btn_prev con_btn con_btn_prev">
+          <span class="icon-prev_arrow icon-arrow"></span>
+        </button>
+        <button class="con5_btn_next con_btn con_btn_next">
+          <span class="icon-next_arrow icon-arrow"></span>
+        </button>
+        <!-- // 슬라이드 버튼 -->
+        <div class="swiper con5_swiper">
+          <div class="swiper-wrapper">
+            <article class="swiper-slide con5_art con5_art1">
+              <a href="#" class="con5_link">
+                <!-- <div class="con5_art_cover">
+                                    <p class="cover_txt">
+                                        자세히 보기
+                                    </p>
+                                </div> -->
+                <span class="icon_sns icon-insta">
+                </span>
+              </a>
+            </article>
+            <article class="swiper-slide con5_art con5_art2">
+              <a href="#" class="con5_link">
+                <!-- <div class="con5_art_cover">
+                                    <p class="cover_txt">
+                                        자세히 보기
+                                    </p>
+                                </div> -->
+                <span class="icon_sns icon-facebook">
+                </span>
+              </a>
+            </article>
+            <article class="swiper-slide con5_art con5_art3">
+              <a href="#" class="con5_link">
+                <!-- <div class="con5_art_cover">
+                                    <p class="cover_txt">
+                                        자세히 보기
+                                    </p>
+                                </div> -->
+                <span class="icon_sns icon-blog">
+                </span>
+              </a>
+            </article>
+            <article class="swiper-slide con5_art con5_art4">
+              <a href="#" class="con5_link">
+                <!-- <div class="con5_art_cover">
+                                    <p class="cover_txt">
+                                        자세히 보기
+                                    </p>
+                                </div> -->
+                <span class="icon_sns icon-youtube">
+                </span>
+              </a>
+            </article>
+            <article class="swiper-slide con5_art con5_art5">
+              <a href="#" class="con5_link">
+                <!-- <div class="con5_art_cover">
+                                    <p class="cover_txt">
+                                        자세히 보기
+                                    </p>
+                                </div> -->
+                <span class="icon_sns icon-insta">
+                </span>
+              </a>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- // 컨텐츠 05 - sns -->
+  <!-- 컨텐츠 04 - 홍보 배너 -->
+  <section class="con4_bnr">
+    <div class="container">
+      <div class="left_side">
+        <div class="con_wrap">
+          <h2 class="con_tit">
+            <span class="txt_bold txt_hi">
+              따릉이 어플
+            </span>로 이용하세요!
+          </h2>
+          <p class="con_txt">
+            모바일 어플로 더욱 빠르고
+            <br>편리하게 따릉이를 이용하세요!
+          </p>
+          <div class="con_link_wrap">
+            <a href="#" class="con_link">
+              <div class="icon_store icon_apple"></div>
+              <div class="txt_wrap">
+                <p class="small_txt">
+                  앱 스토어에서
                 </p>
-                <p class="copy">&copy; Seoul Metropolitan Government all rights reserved</p>
-                <img class="logo_seoul" src="img/logo_seoul.svg" alt="서울시 로고">
-            </div>
+                <p class="down_txt">
+                  다운로드 하기
+                </p>
+              </div>
+            </a>
+            <a href="#" class="con_link">
+              <div class="icon_store icon_google"></div>
+              <div class="txt_wrap">
+                <p class="small_txt">
+                  구글 플레이에서
+                </p>
+                <p class="down_txt">
+                  다운로드 하기
+                </p>
+              </div>
+            </a>
+          </div>
         </div>
-    </footer>
-    <!-- // 푸터 -->
-    <!-- 제이쿼리 -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <!-- 스와이퍼 슬라이드 -->
-    <script src="js/swiper-bundle.min.js"></script>
-    <script>
-        var swiper1 = new Swiper(".con1_swiper", {
-            pagination: {
-                el: ".con1_pagination",
-                clickable: true,
-            },
-            navigation: {
-                nextEl: ".con1_btn_next",
-                prevEl: ".con1_btn_prev",
-            },
-            loop: true,
-            autoplay: {
-                delay: 3500,
-                disableOnInteraction: false,
-            }
-        });
+      </div>
+      <!-- <div class="right_side">
+        <img src="img/con4_bnr_img.png" alt="" class="con4_bnr_img">
+      </div> -->
+    </div>
+  </section>
+  <!-- // 컨텐츠 04 - 홍보 배너 -->
 
-        var swiper2 = new Swiper(".con3_swiper", {
-            // pagination: {
-            //     el: ".con1_pagination",
-            //     clickable: true,
-            // },
-            slidesPerView: "auto",
-            spaceBetween: 18,
-            navigation: {
-                nextEl: ".con3_btn_next",
-                prevEl: ".con3_btn_prev",
-            },
-            loop: true,
-        });
-        var swiper3 = new Swiper(".con5_swiper", {
-            // pagination: {
-            //     el: ".con1_pagination",
-            //     clickable: true,
-            // },
-            slidesPerView: "auto",
-            spaceBetween: 18,
-            navigation: {
-                nextEl: ".con5_btn_next",
-                prevEl: ".con5_btn_prev",
-            },
 
-            loop: true,
-        });
-    </script>
+
+  <!-- 푸터 -->
+  <footer class="ftr">
+    <div class="top_ftr">
+      <div class="container">
+        <ul class="link_wrap">
+          <li class="link_li">
+            <a href="#" class="link">
+              이용약관
+            </a>
+          </li>
+          <li class="link_li">
+            <a href="#" class="link">
+              <span class="txt_bold txt_primary_color">
+                개인정보처리방침
+              </span>
+            </a>
+          </li>
+          <li class="link_li">
+            <a href="#" class="link">
+              보험 안내
+            </a>
+          </li>
+          <li class="link_li">
+            <a href="#" class="link">
+              도움주신 분
+            </a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+    <div class="main_ftr">
+      <div class="container">
+        <p class="info_txt">
+          서울 특별시 중구 세종대로 110 서울특별시 대표자 : 오세훈
+          <br>TEL : 1599-0120 사업자 등록 번호 : 104-83-00469
+          <br>우편번호 : 04524 서울시 공용자전거 따릉이
+        </p>
+        <p class="copy">&copy; Seoul Metropolitan Government all rights reserved</p>
+        <img class="logo_seoul" src="img/logo_seoul.svg" alt="서울시 로고">
+      </div>
+    </div>
+  </footer>
+  <!-- // 푸터 -->
+  <!-- 제이쿼리 -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- 스와이퍼 슬라이드 -->
+  <script src="js/swiper-bundle.min.js"></script>
+  <script>
+    var swiper1 = new Swiper(".con1_swiper", {
+      pagination: {
+        el: ".con1_pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".con1_btn_next",
+        prevEl: ".con1_btn_prev",
+      },
+      loop: true,
+      autoplay: {
+        delay: 3500,
+        disableOnInteraction: false,
+      }
+    });
+
+    var swiper2 = new Swiper(".con3_swiper", {
+      // pagination: {
+      //     el: ".con1_pagination",
+      //     clickable: true,
+      // },
+      slidesPerView: "auto",
+      spaceBetween: 18,
+      navigation: {
+        nextEl: ".con3_btn_next",
+        prevEl: ".con3_btn_prev",
+      },
+      loop: true,
+    });
+    var swiper3 = new Swiper(".con5_swiper", {
+      // pagination: {
+      //     el: ".con1_pagination",
+      //     clickable: true,
+      // },
+      slidesPerView: "auto",
+      spaceBetween: 18,
+      navigation: {
+        nextEl: ".con5_btn_next",
+        prevEl: ".con5_btn_prev",
+      },
+
+      loop: true,
+    });
+  </script>
 </body>
 
 </html>
