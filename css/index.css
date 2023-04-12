@@ -819,6 +819,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index:999;
 }
 /* 헤더 - 왼쪽 영역 */
 .hdr .container .left_side {
